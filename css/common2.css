@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* 웹폰트 */
+/* @import "";사용하여 지정 */
+
+/* 초기화 */
+body, h1, h2, h3, p, ul {margin: 0; padding: 0;}
+ul li {list-style: none;}
+a {text-decoration: none; }
+hr {display: none;}
+small {font-size: 1em;}
+.hidden {position: absolute; left: -9999px;}
+
+/* 전체영역 */
+body {width: 800px; margin: 8px auto 0;
+      }
+/* 헤더 */
+#header {height: 150px; background: #f46075;
+         position: relative;}
+/* #header h1 img {display:block;} */
+
+/* 네비 */
+#gnb {position: absolute;
+      top: 80px;
+      right: 298px;}
+#gnb ul li {float: left; margin-right: 30px;}
+#gnb ul li a {color: #fff;}
+
+/* 본문시작 */
+main { width: 564px;
+       float: left; }
+
+/* content */
+#content {}
+#content h2 { line-height: 82px;
+              margin-left:  6px; }
+#content article { width: 272px; height: 242px;
+                  border: 1px solid #ccc;
+                  box-sizing: border-box;
+                  float: left;
+                  margin: 0 0 10px 10px;
+                  padding: 28px 10px 10px 10px;
+                  }
+#content article a { color: #000;
+                     font-size: 13px;
+                     }
+#content article a h3 {
+                        /* line-height: 55px; */
+                        margin-bottom: 17px;}
+#content article a p {  }
+.dogHouse:hover { background: #000;
+                  border: 1px solid green;}
+#content .dogHouse:hover a { color: #fff;}
+.dogFood:hover { background: #ffe3001f;}
+.dogWater:hover { background: #14ff001f; }
+.dogName:hover { background: #0047ff1f; }
+
+/* 사이드 */
+#photo { width: 202px;
+          float: right;
+          border: 1px solid #007439;
+          background: #ffc;
+          margin-top: 82px;
+          padding: 10px 0;
+          text-align: center;
+          /* padding: 10px 0 0 10px; */
+          /* box-sizing: border-box; */
+         }
+}
+#photo img { }
+/* 푸터 */
+footer { clear: both;
+        width: 800px;
+        /* height: 60px; */
+        background: #333; color: #fff;
+        text-align: center;
+        /* line-height: 60px; */
+        padding: 24px 0 22px;
+      }
+small { }
